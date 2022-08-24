@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    
+    <title>Document</title>
+</head>
+<body>
+
+    <header>
+        <h2>CALCOLA IL PREZZO DEL TUO BIGLIETTO</h2>
+    </header>
+    
+<main>
+    
+    <div class="container">
+        <div class="first-part">
+            <div id="personal-data">
+                <div>
+                    <p>Nome e Cognome</p>
+                    <input type="text" name="dati" id="person-info">
+                </div>
+                <div>
+                    <p>Km da percorrere</p>
+                    <input type="text" name="km" id="kilometers">
+                </div>
+        
+                <div>
+                    <p>Età</p>
+                    <input type="text" name="eta" id="age">
+                </div>
+            </div>
+        
+            <div id="control-buttons">
+                <button id="create"><strong>Genera</strong></button>
+                <button id="cancel"><strong> Annulla</strong></button>
+            </div>
+
+        </div> 
+    </div>
+
+    <h2>IL TUO BIGLIETTO</h2>
+
+    <div class="container">
+
+        <div class="second-part">
+            <div>
+                <p id="passenger-details"><strong>DETTAGLIO PASSEGGERI</strong></p>
+            </div>
+            <div id="details-ticket">
+                <div>
+                    <p id="passenger-details"><strong>NOME PASSEGGERO</strong></p>
+                    <p id="dati-passeggero"></p>
+                </div>
+                <div>
+                    <p id="passenger-details"><strong>Offerta</strong></p>
+                    <p id="passenger-details">Biglietto Standard</p>
+                </div>
+                <div>
+                    <p id="passenger-details"><strong>Carrozza</strong></p>
+                    <p id="passenger-details"> 5 </p>
+                </div>
+                
+                <div>
+                    <p id="passenger-details"><strong>Codice CP</strong></p>
+                    <p id="passenger-details">92911</p>
+                </div>
+                <div>
+                    <p id="passenger-details"><strong>Costo biglietto</strong></p>
+                    <p id="costo-biglietto"></p>
+                </div>
+
+
+                
+            </div>
+
+        </div>
+    </div>
+
+   
+</main>
+
+<footer></footer>
+    
+    
+</body>
+</html>
